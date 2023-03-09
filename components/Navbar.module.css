@@ -1,0 +1,16 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.logo {
+  justify-content: flex-start;
+  width: 150px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3em;
+  margin-right: 5em;
+}
