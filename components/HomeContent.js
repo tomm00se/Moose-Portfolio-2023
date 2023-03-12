@@ -22,6 +22,9 @@ const HomeContent = () => {
           />
         </div>
       </div>
+      <div className={Styles.buttonContainer}>
+        <button className={Styles.contactButton}>Contact</button>
+      </div>
     </>
   );
 };

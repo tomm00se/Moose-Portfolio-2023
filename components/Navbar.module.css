@@ -12,5 +12,13 @@
   list-style: none;
   align-items: center;
   gap: 3em;
-  margin-right: 5em;
+  margin-right: 10%;
+}
+
+.buttonContainer {
+  display: flex;
+}
+.contactButton {
+  display: flex;
+  margin-left: 200px;
 }
