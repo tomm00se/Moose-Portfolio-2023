@@ -5,11 +5,19 @@ const Navbar = () => {
   return (
     <>
       <div className={Styles.navbarContainer} id="navbar">
-        <img className={Styles.logo} src="/Tommy-Bowden.svg" alt="moose logo" />
+        <a href="/">
+          <img
+            className={Styles.logo}
+            src="/Tommy-Bowden.svg"
+            alt="moose logo"
+          />
+        </a>
         <ul className={Styles.list}>
           <li>About</li>
           <li>Blog</li>
-          <li>Contact</li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
         </ul>
       </div>
     </>

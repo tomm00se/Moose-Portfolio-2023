@@ -1,5 +1,7 @@
 import React from "react";
+import Footer from "./Footer";
 import Styles from "./HomeContent.module.css";
+import Link from "next/link";
 
 const HomeContent = () => {
   return (
@@ -23,8 +25,11 @@ const HomeContent = () => {
         </div>
       </div>
       <div className={Styles.buttonContainer}>
-        <button className={Styles.contactButton}>Contact</button>
+        <a href="/contact">
+          <button className={Styles.contactButton}>Contact Me!</button>
+        </a>
       </div>
+      <Footer />
     </>
   );
 };

@@ -5,7 +5,7 @@
   max-width: 1600px;
   margin: 0 auto;
   gap: 80px;
-  padding: 0 20px;
+  padding: 0 100px;
 }
 .textContainer {
   display: flex;
@@ -33,6 +33,17 @@
 .img {
   width: 100%;
   justify-content: center;
+}
+
+.contactButton {
+  background-color: rgb(247, 241, 234);
+  border: none;
+  color: black;
+  border: 0.5em solid black;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 100px;
 }
 
 @media screen and (max-width: 600px) {
