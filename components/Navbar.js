@@ -13,10 +13,25 @@ const Navbar = () => {
           />
         </a>
         <ul className={Styles.list}>
-          <li>About</li>
-          <li>Blog</li>
           <li>
-            <a href="/contact">Contact</a>
+            <a className={Styles.link} href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className={Styles.link} href="/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className={Styles.link} href="/blog">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a className={Styles.link} href="/contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
