@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "./AboutContent.module.css";
+import Styles from "./styling/AboutContent.module.css";
 
 const AboutContent = () => {
   return (
@@ -22,7 +22,8 @@ const AboutContent = () => {
           </p>
           <p className={Styles.paragraph}>
             If you want to see more of what I get up too, check my blog, my
-            twitter or even LinkedIn!
+            <a href="https://twitter.com/Tommoose_"> twitter</a> or even
+            <a href="https://www.linkedin.com/in/tommybowden/"> LinkedIn!</a>
           </p>
         </div>
         <div className={Styles.imgContainer}>

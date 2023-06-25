@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "./Navbar.module.css";
+import Styles from "./styling/Navbar.module.css";
 
 const Navbar = () => {
   return (
@@ -14,24 +14,16 @@ const Navbar = () => {
         </a>
         <ul className={Styles.list}>
           <li>
-            <a className={Styles.link} href="/">
-              Home
-            </a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a className={Styles.link} href="/about">
-              About
-            </a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a className={Styles.link} href="/blog">
-              Blog
-            </a>
+            <a href="/blog">Blog</a>
           </li>
           <li>
-            <a className={Styles.link} href="/contact">
-              Contact
-            </a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
