@@ -24,17 +24,6 @@
   font-size: 18px;
   max-width: 600px;
 }
-.imgContainer {
-  display: flex;
-  justify-content: flex-end;
-  max-width: 600px;
-  width: 50%;
-}
-.img {
-  width: 100%;
-  justify-content: center;
-}
-
 .contactButton {
   background-color: rgb(247, 241, 234);
   border: none;
@@ -43,7 +32,16 @@
   padding: 15px 32px;
   text-decoration: none;
   font-size: 18px;
-  margin-left: 100px;
+}
+.imgContainer {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 400px;
+  width: 50%;
+}
+.img {
+  width: 100%;
+  justify-content: center;
 }
 
 @media screen and (max-width: 750px) {

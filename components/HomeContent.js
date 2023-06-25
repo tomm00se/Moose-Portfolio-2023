@@ -15,6 +15,11 @@ const HomeContent = () => {
             to progress my understanding of the world through technology and
             bring my unique perspective to every I work on.
           </p>
+          <div className={Styles.buttonContainer}>
+            <a href="/contact">
+              <button className={Styles.contactButton}>Contact Me!</button>
+            </a>
+          </div>
         </div>
         <div className={Styles.imgContainer} id="img__container">
           <img
@@ -23,11 +28,6 @@ const HomeContent = () => {
             alt="image of male developer"
           />
         </div>
-      </div>
-      <div className={Styles.buttonContainer}>
-        <a href="/contact">
-          <button className={Styles.contactButton}>Contact Me!</button>
-        </a>
       </div>
       <Footer />
     </>

@@ -5,20 +5,18 @@ const Footer = () => {
   return (
     <>
       <div className={Styles.footerContainer}>
-        <p className={Styles.footerText}>Moose 2023©</p>
-        <div className={Styles.socialsContainer}>
-          <ul className={Styles.socials}>
-            <a href="https://www.linkedin.com/in/tommybowden/">
-              <li>LinkedIn 🔗</li>
-            </a>
-            <a href="https://twitter.com/Tommoose_">
-              <li>Twitter 🔗</li>
-            </a>
-            <a href="https://chillpeep.zone/@Moose">
-              <li>Mastodon 🔗</li>
-            </a>
-          </ul>
-        </div>
+        <p className={Styles.footerTextMain}> Moose 2023© </p>
+      </div>
+      <div className={Styles.footerContainer}>
+        <a href="https://www.linkedin.com/in/tommybowden/">
+          <p className={Styles.footerText}> LinkedIn 🔗 </p>
+        </a>
+        <a href="https://twitter.com/Tommoose_">
+          <p className={Styles.footerText}> Twitter 🔗 </p>
+        </a>
+        <a href="https://chillpeep.zone/@Moose">
+          <p className={Styles.footerText}> Mastodon 🔗 </p>
+        </a>
       </div>
     </>
   );

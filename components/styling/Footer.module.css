@@ -1,11 +1,11 @@
 .footerContainer {
   display: flex;
-  margin: 30px auto;
   justify-content: center;
 }
-.socials {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  gap: 2em;
+
+.footerTextMain {
+  padding-top: 2em;
+}
+.footerText {
+  margin-left: 2em;
 }
