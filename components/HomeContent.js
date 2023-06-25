@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
 import Styles from "./HomeContent.module.css";
-import Link from "next/link";
 
 const HomeContent = () => {
   return (
