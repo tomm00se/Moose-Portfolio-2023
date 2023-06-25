@@ -11,7 +11,9 @@ const ContactMe = () => {
             Feel free to send me an E-mail and I will get back to you ASAP!
           </p>
           <div className={Styles.buttonContainer}>
-            <button className={Styles.button}>Contact</button>
+            <a href="mailto:tom@moose17.dev">
+              <button className={Styles.button}>Contact</button>
+            </a>
           </div>
         </div>
         <div className={Styles.imgContainer}>

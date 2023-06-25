@@ -46,6 +46,12 @@
   justify-content: flex-start;
   max-width: none;
 }
+@media screen and (max-width: 750px) {
+  .imgContainer {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column-reverse;
