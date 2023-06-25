@@ -9,10 +9,11 @@ const HomeContent = () => {
         <div className={Styles.textContainer}>
           <h1 className={Styles.title}>Hey, I'm Moose!</h1>
           <p className={Styles.paragraph}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I am a career changer who has fully transitioned into the software
+            engineering sector. With a passion for technology and a commitment
+            to inclusivity. My ultimate goal is to progress my understanding of
+            the world through technology and bring my unique perspective to
+            every I work on.
           </p>
         </div>
         <div className={Styles.imgContainer} id="img__container">
