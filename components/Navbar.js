@@ -6,11 +6,7 @@ const Navbar = () => {
     <>
       <div className={Styles.navbarContainer} id="navbar">
         <a href="/">
-          <img
-            className={Styles.logo}
-            src="/Tommy-Bowden.svg"
-            alt="moose logo"
-          />
+          <img className={Styles.logo} src="/Moose.svg" alt="moose logo" />
         </a>
         <ul className={Styles.list}>
           <li>
