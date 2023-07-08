@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://twitter.com/Tommoose_" target="blank_">
           <p className={Styles.footerText}> Twitter 🔗 </p>
         </a>
-        <a href="https://chillpeep.zone/@Moose" target="blank_">
+        <a href="https://techhub.social/@Tommoose" target="blank_">
           <p className={Styles.footerText}> Mastodon 🔗 </p>
         </a>
       </div>
